@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MuaNgay - Sàn thanh lý đồ secondhand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">M</span>
+        <span>
+          <strong>MuaNgay</strong>
+          <small>Cần là Mua Ngay, thừa thì Pass Luôn.</small>
+        </span>
+      </a>
+
+      <div class="nav-links">
+        <a href="explore.html">Khám phá</a>
+        <a href="post-listing.html">Đăng tin</a>
+        <a href="chat.html">Chat</a>
+        <a href="orders.html">Đơn hàng</a>
+        <a href="profile.html">Hồ sơ</a>
+      </div>
+
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="profile.html">Đăng nhập</a>
+        <a class="btn btn-primary" href="post-listing.html">Đăng tin</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Sàn giao dịch đồ cũ có bảo chứng</p>
+        <h1>Thanh lý đồ secondhand nhanh, gần nhà và an toàn hơn.</h1>
+        <p class="hero-copy">
+          MuaNgay kết nối người mua và người bán đồ đã qua sử dụng, hỗ trợ trả giá trong chat,
+          đặt cọc VietQR chống bom hàng và giao dịch qua gặp mặt hoặc ship 3PL.
+        </p>
+
+        <form class="search-panel">
+          <div class="field field-wide">
+            <label for="keyword">Tìm món đồ</label>
+            <input id="keyword" type="search" placeholder="iPhone, sofa, xe đạp, sách cũ...">
+          </div>
+          <div class="field">
+            <label for="location">Khu vực</label>
+            <select id="location">
+              <option>TP. Hồ Chí Minh</option>
+              <option>Hà Nội</option>
+              <option>Đà Nẵng</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="method">Giao nhận</label>
+            <select id="method">
+              <option>Gần nhà</option>
+              <option>Ship toàn quốc</option>
+              <option>Góc 0 đồng</option>
+            </select>
+          </div>
+        <a class="btn btn-dark" href="explore.html">Tìm ngay</a>
+        </form>
+
+        <div class="hero-stats" aria-label="Thống kê nổi bật">
+          <div><strong>24.580</strong><span>Tin đang hiển thị</span></div>
+          <div><strong>8.940</strong><span>Giao dịch bảo chứng</span></div>
+          <div><strong>4,8/5</strong><span>Điểm uy tín trung bình</span></div>
+        </div>
+      </div>
+
+      <aside class="deal-preview" aria-label="Giao dịch nổi bật">
+        <div class="product-photo photo-laptop">
+          <span>ThinkPad X1 Carbon Gen 8</span>
+        </div>
+        <div class="preview-body">
+          <div class="preview-row">
+            <span class="badge verified">Đã xác thực</span>
+            <span class="price">9.800.000đ</span>
+          </div>
+          <h2>Laptop văn phòng còn bảo hành shop</h2>
+          <p>Quận Bình Thạnh, TP. Hồ Chí Minh</p>
+          <div class="offer-box">
+            <span>Trả giá được chấp nhận</span>
+            <strong>9.300.000đ</strong>
+          </div>
+          <div class="deposit-line">
+            <span>Cọc giữ đồ VietQR 10%</span>
+            <strong>930.000đ</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section category-strip" aria-label="Danh mục sản phẩm">
+      <a href="explore.html">Điện tử</a>
+      <a href="explore.html">Nội thất</a>
+      <a href="explore.html">Xe cộ</a>
+      <a href="explore.html">Gia dụng</a>
+      <a href="explore.html">Thời trang</a>
+      <a href="explore.html">Sách cũ</a>
+      <a href="explore.html">Góc 0 đồng</a>
+    </section>
+
+    <section class="section marketplace" id="market">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Tin nổi bật hôm nay</p>
+          <h2>Đồ tốt đang được thanh lý gần bạn</h2>
+        </div>
+        <a class="btn btn-outline" href="explore.html">Xem tất cả</a>
+      </div>
+
+      <div class="content-grid">
+        <aside class="filters">
+          <h3>Bộ lọc nhanh</h3>
+          <label><span>Khoảng giá</span><select><option>Dưới 10 triệu</option></select></label>
+          <label><span>Tình trạng</span><select><option>Còn tốt</option></select></label>
+          <label><span>Hình thức</span><select><option>Bán thanh lý</option></select></label>
+          <label><span>Khoảng cách</span><select><option>Dưới 5 km</option></select></label>
+          <button class="btn btn-primary btn-full">Áp dụng lọc</button>
+        </aside>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-photo photo-phone"><span>iPhone 13 128GB</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge hot">VIP Boost</span><span>2,1 km</span></div>
+              <h3>iPhone 13 128GB pin 88%, máy đẹp</h3>
+              <p class="seller">Người bán: Minh Anh, 4,9 sao</p>
+              <div class="card-bottom"><strong>8.900.000đ</strong><a href="product-detail.html">Mua Ngay</a></div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-photo photo-sofa"><span>Sofa vải xám 2m</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge pickup">Gặp mặt</span><span>4,8 km</span></div>
+              <h3>Sofa phòng khách cần thanh lý trước khi chuyển nhà</h3>
+              <p class="seller">Người bán: Gia Khang, 18 giao dịch</p>
+              <div class="card-bottom"><strong>2.400.000đ</strong><a href="chat.html">Trả Giá</a></div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-photo photo-bike"><span>Xe đạp thể thao</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge pickup">Pickup Only</span><span>6,3 km</span></div>
+              <h3>Xe đạp thể thao Giant, kiểm tra trực tiếp</h3>
+              <p class="seller">Người bán: Hoàng Nam, đã xác thực</p>
+              <div class="card-bottom"><strong>3.200.000đ</strong><a href="product-detail.html">Mua Ngay</a></div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-photo photo-books"><span>Combo sách kinh tế</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge ship">Ship 3PL</span><span>Toàn quốc</span></div>
+              <h3>Combo 12 sách kinh tế, quản trị và thương mại</h3>
+              <p class="seller">Người bán: Thanh Trúc, 4,8 sao</p>
+              <div class="card-bottom"><strong>390.000đ</strong><a href="product-detail.html">Mua Ngay</a></div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-photo photo-camera"><span>Fujifilm X-T20</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge ship">Kiểm hàng 48h</span><span>Ship 3PL</span></div>
+              <h3>Máy ảnh Fujifilm X-T20 kèm lens kit</h3>
+              <p class="seller">Người bán: Nhật Huy, 27 giao dịch</p>
+              <div class="card-bottom"><strong>8.600.000đ</strong><a href="chat.html">Trả Giá</a></div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-photo photo-airfryer"><span>Nồi chiên 6L</span></div>
+            <div class="card-body">
+              <div class="tag-row"><span class="badge verified">Đã xác thực</span><span>1,7 km</span></div>
+              <h3>Nồi chiên không dầu Philips còn mới 90%</h3>
+              <p class="seller">Người bán: Khánh Vy, 4,7 sao</p>
+              <div class="card-bottom"><strong>1.150.000đ</strong><a href="product-detail.html">Mua Ngay</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust-section" id="trust">
+      <div class="trust-copy">
+        <p class="eyebrow">Market Creator bảo chứng giao dịch</p>
+        <h2>An tâm hơn khi mua đồ cũ từ người lạ.</h2>
+        <p>
+          MuaNgay không giữ hàng tồn kho. Nền tảng tạo lập thị trường, giữ cọc an toàn,
+          khóa tin khi phát sinh giao dịch và hỗ trợ xử lý tranh chấp dựa trên lịch sử chat, thanh toán và bằng chứng giao nhận.
+        </p>
+      </div>
+
+      <div class="trust-grid">
+        <div class="trust-item">
+          <span>01</span>
+          <h3>Trả giá trong chat</h3>
+          <p>Người mua gửi đề xuất giá, người bán chấp nhận hoặc từ chối ngay trên thẻ thương lượng.</p>
+        </div>
+        <div class="trust-item">
+          <span>02</span>
+          <h3>Cọc VietQR giữ đồ</h3>
+          <p>Đặt cọc 10% cho giao dịch gặp mặt hoặc cọc phí ship để giảm rủi ro bom hàng.</p>
+        </div>
+        <div class="trust-item">
+          <span>03</span>
+          <h3>Kiểm hàng 48 giờ</h3>
+          <p>Đơn ship 3PL được giam tiền trong 48 giờ để người mua kiểm tra lỗi ngầm.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dashboard" id="orders">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Trung tâm giao dịch</p>
+          <h2>Theo dõi đơn mua và đơn bán</h2>
+        </div>
+      </div>
+
+      <div class="order-board">
+        <div class="order-card active">
+          <span class="status-dot"></span>
+          <div>
+            <h3>Đã cọc - Chờ gặp mặt</h3>
+            <p>MacBook Air M1, Quận 3, 19:30 hôm nay</p>
+          </div>
+          <strong>1.250.000đ cọc</strong>
+        </div>
+        <div class="order-card">
+          <span class="status-dot"></span>
+          <div>
+            <h3>Đang vận chuyển 3PL</h3>
+            <p>Máy ảnh Fujifilm X-T20, mã vận đơn GHTK-78421</p>
+          </div>
+          <strong>Đồng kiểm</strong>
+        </div>
+        <div class="order-card">
+          <span class="status-dot"></span>
+          <div>
+            <h3>Đang test 48 giờ</h3>
+            <p>Tai nghe Sony WH-1000XM4, còn 31 giờ để khiếu nại</p>
+          </div>
+          <strong>Chờ giải ngân</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>MuaNgay</strong>
+      <p>Sàn thanh lý đồ secondhand theo mô hình B2C Market Creator.</p>
+    </div>
+    <a class="btn btn-primary" href="post-listing.html">Đăng tin thanh lý</a>
+  </footer>
+</body>
+</html>
